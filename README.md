@@ -3,7 +3,7 @@
 A custom command-line shell built in Python with history, auto-completion, and cross-platform support.
 
 ## ✨ Features
-- **10+ Built-in Commands**: `cd`, `pwd`, `help`, `exit`, `about`, etc.
+- **10+ Built-in Commands**: `cd`, `pwd`, `help`, `exit`, `about`, etc
 - **Command History**: Navigate previous commands with arrow keys
 - **Tab Auto-completion**: Press Tab to complete commands
 - **Cross-platform**: Handles Windows/Unix command differences
