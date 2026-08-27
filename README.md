@@ -1,37 +1,37 @@
 # 🐚 IIUI Mini Shell
 
-A custom command-line shell built in Python with history, auto-completion, and cross-platform support.
+A lightweight, cross-platform command-line shell built with Python, featuring persistent command history, Tab auto-completion, built-in filesystem commands, pipes, I/O redirection, background process execution, and a standalone Windows executable.
 
 ## ✨ Features
-- **10+ Built-in Commands**: `cd`, `pwd`, `help`, `exit`, `about`, etc
-- **Command History**: Navigate previous commands with arrow keys
-- **Tab Auto-completion**: Press Tab to complete commands
-- **Cross-platform**: Handles Windows/Unix command differences
-- **Standalone .exe**: Compiled with PyInstaller for easy distribution
 
-## 🚀 Quick Start
+- **20+ Built-in Commands**
+  - `cd` — Change directory
+  - `pwd` — Show current directory
+  - `ls` / `dir` — List files and directories
+  - `mkdir` — Create directories
+  - `rmdir` — Remove empty directories
+  - `touch` — Create files
+  - `rm` / `del` — Remove files or directories
+  - `cat` / `type` — Display file contents
+  - `echo` — Print text
+  - `clear` / `cls` — Clear terminal
+  - `history` — View command history
+  - `whoami` — Display current username
+  - `which` / `where` — Locate commands
+  - `date` — Display current date and time
+  - `tree` — Display directory structure
+  - `help` — Show command reference
+  - `about` — Display shell information
+  - `exit` / `quit` — Exit the shell
 
-# Install dependencies
-pip install pyreadline3 pyinstaller
+- **Command History**
+  - Persistent history saved between sessions
+  - Navigate previous commands with arrow keys
 
-# Run the shell
-python shell.py
+- **Tab Auto-completion**
+  - Complete commands using `Tab`
+  - Complete files and directories
 
-# Or use compiled version (Windows)
-./dist/shell.exe
-📦 Compilation
-bash
-pyinstaller --onefile --hidden-import=pyreadline3 shell.py
-🛠️ Built With
-Python 3
-
-pyreadline3 (for Windows compatibility)
-
-PyInstaller
-
-📝 Project Info
-Course: Operating Systems
-
-University: IIUI
-
-Year: 2024
+- **Pipes**
+  ```bash
+  command1 | command2
