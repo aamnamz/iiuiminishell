@@ -4,7 +4,7 @@
 
 IIUI Mini Shell is a lightweight command-line shell built from scratch in **Python**, designed to provide essential shell functionality while exploring concepts such as command parsing, process execution, filesystem operations, pipes, I/O redirection, and command history.
 
-![SHELL](shell.png)
+![SHELL](shel.png)
 
 ## ✨ Features
 
